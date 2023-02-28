@@ -414,8 +414,9 @@ section h2 {
   left: 85%;
   height: 50px;
   width: 50px;
-  background-color: gray;
+  background-color: rgb(182, 182, 182);
   color: purple;
+  border: 2px solid white;
   border-radius: 50%;
   opacity: 80%;
   z-index: 2;
@@ -426,8 +427,9 @@ section h2 {
   left: 85%;
   height: 50px;
   width: 50px;
-  background-color: gray;
+  background-color: rgb(182, 182, 182);
   color: pink;
+  border: 2px solid white;
   border-radius: 50%;
   opacity: 80%;
   z-index: 2;
@@ -440,8 +442,74 @@ section h2 {
   left: 85%;
   height: 50px;
   width: 50px;
-  background-color: gray;
+  background-color: rgb(182, 182, 182);
   color: red;
+  border: 2px solid white;
+  border-radius: 50%;
+  opacity: 80%;
+  z-index: 2;
+}
+#categoria1 {
+  float: right;
+}
+
+#categoria2 {
+  float: right;
+}
+
+#categoria3 {
+  float: right;
+}       
+}
+
+@media screen and (min-width: 700px) {
+  header{
+      position: fixed;
+      width: 96%;
+      z-index: 2;
+  }
+
+  main {
+      padding-top: 40%;
+  }       
+
+#tornaSu {
+  position: fixed;
+  bottom: 10%;
+  left: 85%;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(182, 182, 182);
+  color: purple;
+  border: 2px solid white;
+  border-radius: 50%;
+  opacity: 80%;
+  z-index: 2;
+}
+#instagram {
+  position: fixed;
+  bottom: 20%;
+  left: 85%;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(182, 182, 182);
+  color: pink;
+  border: 2px solid white;
+  border-radius: 50%;
+  opacity: 80%;
+  z-index: 2;
+
+
+}
+#calendario {
+  position: fixed;
+  bottom: 30%;
+  left: 85%;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(182, 182, 182);
+  color: red;
+  border: 2px solid white;
   border-radius: 50%;
   opacity: 80%;
   z-index: 2;
@@ -478,11 +546,11 @@ header{
   left: 95%;
   height: 60px;
   width: 50px;
-  background-color: gray;
+  background-color: rgb(182, 182, 182);
   color: purple;
-  border: 2px solid black;
+  border: 2px solid white;
   border-radius: 100%;
-  opacity: 80%;
+  opacity: 90%;
   z-index: 2;
 }
 #instagram {
@@ -491,9 +559,9 @@ header{
   left: 95%;
   height: 60px;
   width: 50px;
-  background-color: gray;
+  background-color: rgb(182, 182, 182);
   color: pink;
-  border: 2px solid black;
+  border: 2px solid white;
   border-radius: 10%;
   opacity: 80%;
   z-index: 2;
@@ -506,9 +574,9 @@ header{
   left: 95%;
   height: 60px;
   width: 50px;
-  background-color: gray;
+  background-color: rgb(182, 182, 182);
   color: red;
-  border: 2px solid black;
+  border: 2px solid white;
   border-radius: 10%;
   opacity: 80%;
   z-index: 2;
