@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 500px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #fbf7e3;
+    border-radius: 25%;
+    color: #742305;
+}
+
+.schedaContent {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prezzo {
+    font-size: 2em;
+}
+
+button {
+    margin: 0 auto;
+    width: 60%;
+    height: 40px;
+    border: none;
+    color: rgb(78, 20, 20);
+    background-color: #f3df85;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}

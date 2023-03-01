@@ -1,0 +1,25 @@
+body{
+           
+    margin: 20px;
+ }
+ main{
+     display: flex;
+     background-color: #fbf7e3;
+     border-radius: 20px;
+ }
+ img{
+     margin: 10px;
+ }
+ h2{    
+     font-family: sans-serif;
+     font-weight: bold;
+     color: #742305;
+ }
+ h3{
+     font-family: sans-serif;
+     font-weight: bold;
+     color: #742305;
+ }
+ p{
+     color: #742305;
+ }
