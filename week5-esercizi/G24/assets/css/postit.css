@@ -1,0 +1,90 @@
+body {
+    margin: 100px;
+    background-color: rgb(120, 120, 120);    
+}
+
+
+.container{
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #3d3487;
+    border: 20px solid rgb(255, 202, 105);
+}
+
+
+h2{
+    font-family:'Indie Flower';
+    font-size: 2.5em;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+p{
+    font-family:'Indie Flower';
+    font-size: 1.3em;
+    line-height: 80px;
+    text-align: center;
+    margin-top: -40px;
+}
+
+
+
+
+.postit1{
+    margin: 20px 20px;
+    padding: 10px;
+    box-shadow: 4px 7px  rgb(31, 31, 31);
+    background-image: linear-gradient(150deg, #0062a7 0%, #42fff9 100%);
+    width: 230px;
+    height: 180px;
+    transform: rotate(-10deg);
+}
+
+.postit2{
+    margin: 20px 20px;
+    padding: 10px;
+    box-shadow: 4px 7px  rgb(31, 31, 31);
+    background-image: linear-gradient(150deg, #8d36f0, #dd5973);
+    width: 230px;
+    height: 180px;
+    transform: rotate(5deg);   
+}
+
+.postit3{
+    margin: 20px 20px;
+    padding: 10px;
+    box-shadow: 4px 7px  rgb(31, 31, 31);
+    background-image: linear-gradient(150deg, #01fb16, #e0ff98);
+    width: 230px;
+    height: 180px;
+    transform: rotate(-3deg);
+}
+
+.postit4 {
+    margin: 20px 20px;
+    padding: 10px;
+    box-shadow: 4px 7px  rgb(31, 31, 31);
+    background-image: linear-gradient(150deg, #ff9f9f, #c00000);
+    width: 230px;
+    height: 180px;
+    transform: rotate(0deg);
+}
+
+/* trasformazione e rotazione all'hover*/
+.postit1:hover{
+    transform: scale(1.2) rotate(0deg) ;
+}
+.postit2:hover{
+    transform: scale(1.2) rotate(0deg);
+}
+.postit3:hover{   
+    transform: scale(1.2) rotate(0deg);
+}
+.postit4:hover{
+    transform: scale(1.2) rotate(0deg) ;
+}
