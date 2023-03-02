@@ -13,7 +13,6 @@
     padding: 20px;
     width: 90%;
     font-family:'Bree Serif' ;
-    line-height: 20px;
 }
 
 .parole i {
@@ -24,7 +23,7 @@
     animation: titolo;
     animation-duration: 15s;
     animation-iteration-count: infinite;
-    animation-delay: 1s;
+    animation-delay: 0s;
     font-size: 1.5em;
 
   }
