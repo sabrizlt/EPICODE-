@@ -1,0 +1,290 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  }
+
+.container {
+    margin: 10px;
+}
+
+button {
+  margin-left: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 50px;
+  border: transparent;
+  padding: 7px 16px 9px;
+}
+
+/*stile navbar*/
+.flex {
+    display: flex;
+  }
+    
+  .flex-vertical {
+    flex-direction: column;
+  }
+
+  .space-between {
+    justify-content: space-between;
+  }
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #ffc017;
+}
+
+.menu {
+  list-style: none;
+  font-size: 0.85em;
+  margin-block: 1.125rem;
+}
+
+li {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+nav li {
+    margin-right: 25px;
+  }
+
+
+nav,
+.nav2 {
+    border-bottom: 1px solid rgba(25, 25, 25, 1);
+  }
+
+.nav2 {
+  background-color: #ffc017;
+  overflow: hidden;
+  position: relative;
+}
+
+.contenuto {
+  width: 550px;
+  padding-top: 100px;
+  padding-bottom: 105px;
+}
+
+.contenuto h1 {
+  font-size: 70px;
+  letter-spacing: -0.05em;
+
+  line-height: 1;
+  margin-block: 0;
+  font-family: "Spectral", serif;
+}
+
+.contenuto h3 {
+  width: 80%;
+  font-size: 24px;
+  line-height: 1;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-block: 1em;
+}
+
+.contenuto button {
+  margin-top: 1.5rem;
+  font-size: 20px;
+  padding: 0.5em 2.5em;
+}
+
+.artwork {
+  position: absolute;
+  left: 500px;
+  width: 585px;
+}
+
+.bottom-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom-info span {
+  color: rgba(117, 117, 117, 1);
+  font-size: 13px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.bottom-info .dot {
+  padding-inline: 0.25rem;
+}
+
+.badge {
+  color: rgba(117, 117, 117, 1);
+  background-color: rgba(242, 242, 242, 1);
+  padding: 2px 8px;
+  border-radius: 100px;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+section.trending {
+  padding-top: 40px;
+  padding-bottom: 16px;
+}
+
+section.trending .trending-title-section {
+  margin-bottom: 10px;
+}
+
+section.trending img[src$="trending.svg"] {
+  margin-right: 12px;
+}
+
+
+
+section.trending .grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-inline: -16px;
+}
+
+.flex {
+    column-gap: 20px;
+  }
+
+.num {
+    font-size: 30px;
+    color: gray;
+    font-weight: 900;
+  }
+
+.content h2 {
+  font-weight: 900;
+  margin-block: 10px;
+}
+
+.wall {
+  padding-top: 56px;
+  border-top: 1px solid rgba(230, 230, 230, 1);
+}
+
+.grid {
+  display: flex;
+  align-items: flex-start;
+}
+
+
+.immagine {
+    display: flex; 
+    margin-bottom: 50px;
+}
+
+.immagine .content {
+  flex: 1 1 200px;
+  min-width: 200px;
+}
+
+.content + img {
+  width: 200px;
+  height: 150px;
+}
+
+
+
+section.wall .immagine .avatar-title {
+  padding-bottom: 10px;
+}
+
+section.wall .immagine h3 {
+  font-size: 20px;
+}
+
+aside h4 {
+    margin-bottom: 20px;
+}
+
+aside .categories {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 24px;
+}
+
+aside .categories .category {
+  font-size: 13px;
+  line-height: 20px;
+  padding: 6px 16px;
+  border: 1px solid rgb(192, 192, 192);
+  color: gray;
+  letter-spacing: 0.25px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+aside footer {
+    padding-top: 20px;
+    border-top: 1px solid rgb(182, 182, 182);
+}
+  
+
+aside li {
+    display: inline-block;
+    margin-right: 24px;
+    margin-bottom: 8px;
+}
+
+aside a {
+    font-size: 10px;
+    color: grey;
+    text-decoration: none;
+}
+
+  
+@media screen and (min-width: 904px) {
+    section.wall .grid {
+      column-gap: 8.333%;
+    }
+  
+    section.wall .grid > .col-main {
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-basis: 58.333%;
+      width: 58.333%;
+    }
+  
+    section.wall .grid > aside {
+      min-height: 30px;
+      position: sticky;
+      top: 110px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    section.trending > .container > .grid > .col {
+      width: 33.333%; /* fallback */
+      flex-basis: 33.333%;
+      margin-bottom: 24px;
+      padding-inline: 16px;
+    }
+}
+  
+@media screen and (min-width: 1080px) {
+    .nav2 .artwork {
+      left: initial;
+      right: 0;
+    }
+}
+
+  
+  
+ 
+
+  
+  
+  
+  
+  

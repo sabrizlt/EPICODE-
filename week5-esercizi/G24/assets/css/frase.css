@@ -20,7 +20,7 @@
     left: 400px;
     position: absolute;
     color: transparent;
-    animation: titolo;
+    animation: parole;
     animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-delay: 0s;
@@ -36,7 +36,7 @@
         animation-delay: 12s;
     }
 
-    @keyframes titolo {
+    @keyframes parole {
         0% {color: white; top: -60px}
         30% {color: rgb(103, 136, 170); top: 0px}
         50% {color: transparent;}
