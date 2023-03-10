@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            color: white;
+            font-size: 6em;
+        }
+
+        .titolo {
+            width: 500px;
+            margin-left: 35%;
+            margin-top: 60px;
+            border: 0.2px solid rgb(67, 67, 67);
+            border-top: transparent;
+            border-left: transparent;
+            border-right: transparent;
+        }
+
+        .homer {
+            margin-bottom: 10px;
+            display: flex;
+            margin-left: 35%;
+            margin-top: 20px;
+            
+        }
+
+        .simpson {
+            border-radius: 5px;
+        }
+
+        .testo {
+            width: 300px;
+            height: 35px;
+            background-color: gray;
+            color: white;
+            font-size: 1.5em;
+        }
+
+        .simpy {
+            width: 320px;
+            height: 140px;
+            margin-left: 20px;
+            border: 0.2px solid rgb(67, 67, 67);
+            border-top: transparent;
+            border-left: transparent;
+            border-right: transparent;
+        }
+
+        h3, select, p {
+            margin-top: 20px;
+            color: rgb(157, 157, 157);
+        }
+
+        button {
+            width: 70px;
+            height: 30px;
+            border: 1px solid rgb(79, 79, 79);
+            color: rgb(79, 79, 79);
+            background-color: transparent;
+            font-size: 1.5em;
+        }
+
+        .maturity {
+            text-align: center;
+            font-size: 1.5em;
+            margin-top: 10px;
+            margin-bottom: -10px;
+            color: white;
+            background-color: rgb(63, 63, 63);
+            width: 200px;
+        }
+
+        .edit {
+            width: 320px;
+            height: 140px;
+            margin-left: 46%;
+            border: 0.2px solid rgb(67, 67, 67);
+            border-top: transparent;
+            border-left: transparent;
+            border-right: transparent;
+        }
+
+        .controls {
+            width: 400px;
+            height: 90px;
+            margin-left: 46%;
+        }
+
+        .delete {
+            width: 190px;
+            margin-left: 15px;
+            height: 40px;
+        }
+
+        .cancel {
+            width: 140px;
+            margin-left: 15px;
+            height: 40px;
+
+        }
+
+        .save {
+            width: 90px;
+            height: 40px;
+
+        }
+
+        .piedi {
+            width: 500px;
+            height: 150px;
+            padding-top: 20px;
+            margin-left: 35%;
+            border: 0.2px solid rgb(67, 67, 67);
+            border-bottom: transparent;
+            border-left: transparent;
+            border-right: transparent;
+        }
+
+        button:hover {
+        background-color: white;
+        }
+
+       
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-black">
+            <div class="container-fluid">
+              <a class="navbar-brand text-danger " href="netflix.html"><img src="img/LOGO.png" alt="netflix" width="80px"></a>
+              <div class="collapse navbar-collapse" id="navbarNav">    
+                </div>
+              </div>
+          </nav>
+    </header>
+
+    <div class="titolo">
+        <h1>Edit Profile</h1>
+    </div>
+    <div class="container">
+    <main>
+        <div class="homer">
+            <img src="img/profile.jpeg" alt="homer" class="simpson" width="120px" height="120px">
+            <div class="simpy">
+            <input type="text" class="testo">
+            <h3>Language:</h3>
+            <select class="form-select form-select-sm border-secondary bg-black text-light rounded-0 mt-3" style="width: 100px; height: 35px;" aria-label=".form-select-sm example">
+                <option selected>Language</option>
+                <option value="1">English</option>
+                <option value="2">Italian</option>
+                <option value="3">French</option>
+              </select>
+            </div>
+        </div>
+
+        <div class="edit">
+            <h3>Maturity Setting:</h3>
+            <div class="maturity">ALL MATURITY RATING</div>
+            <p>Show titles of <b>all maturity ratings</b> for this profile.</p>
+            <button>EDIT</button>
+        </div>
+
+        <div class="controls">
+            <h3>Autoplay controls</h3>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label text-light" for="flexCheckChecked">
+                    Autoplay next episode in a series on all devices.
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label text-light bg-black" for="flexCheckChecked">
+                    Autoplay previews while browsing on all devices.
+                </label>
+              </div>
+        </div>
+    </div>
+    </main>
+
+    <footer>
+        <div class="piedi">
+        <button class="save">SAVE</button>
+        <button class="cancel">CANCEL</button>
+        <button class="delete">DELETE PROFILE</button>
+        </div>
+    </footer>
+
+</body>
+</html>
