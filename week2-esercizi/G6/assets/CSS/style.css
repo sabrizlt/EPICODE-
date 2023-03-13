@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding-left: 100px;
+    background-color: #415fe1;
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
