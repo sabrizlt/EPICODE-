@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+    background-color: rgb(68, 83, 172);
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container{
+    background: #daa441;
+    margin: 0 auto;
+    padding: 30px;   
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+}
+
+#container h3, #container h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 15px;
+    height: auto;
+}
+
+fieldset{
+    display: flex;
+    width: 100%;
+}
+
+#newTask{
+    width: 100%;
+    border: none;
+    padding: 14px;
+}
+
+#addTask{
+    width: 30%;
+    cursor: pointer;
+    background: #020616;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+#list{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    list-style: none;
+}
+
+#list li{
+    padding: 12px;
+    background: rgb(255, 255, 255);
+    border: 1px solid #2c45a3;
+    display:flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+li.done {
+    background: grey;
+    color: #8c0606;
+    text-decoration: line-through;
+}
+
+.delBtn{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: black;
+    color: white;
+}
