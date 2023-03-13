@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* IMPOSTAZIONI GENERALI */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:  aliceblue;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/sfondo.png);
+}
+/* HEADER */
+header {
+    box-sizing: border-box;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background: rgb(9,99,206);
+    background: -moz-linear-gradient(to bottom, rgb(9,99,206) 0%, rgb(11,37,192) 100%);
+    background: -webkit-linear-gradient(to bottom, rgb(9,99,206) 0%, rgb(11,37,192) 100%);
+    background: linear-gradient(to bottom, rgb(9,99,206) 0%, rgb(11,37,192) 100%);
+    color: white;
+    font-weight: 700;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+header ul {
+    list-style-type: none;
+}
+#logo img {
+    max-width: 200px;
+    min-width: 100px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+/* MAIN */
+#title p{
+    color: grey;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+#container {
+    box-sizing: border-box;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+#container h1{
+   font-size: 2em;
+}
+
+.text {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+#intro code {
+    border: 1px solid black;
+    background-color: rgb(222, 222, 222);
+    border-radius: 10%;
+}
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
