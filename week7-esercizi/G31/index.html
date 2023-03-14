@@ -6,8 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body {
+        background-color: purple;
+        font-family: sans-serif;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    input {
+        background-color: black;
+        border: 5px solid black;
+        color: white;
+        width: 300px;
+        margin-left: 550px;
+
+    }
+
+    button {
+        margin-top: 20px;
+        width: 100px;
+        background-color: transparent;
+        border: 5px solid black;
+        color: white;
+        font-weight: bold;
+        margin-left: 660px;
+    }
+    
+    li {
+        text-align: center;
+    }
+
+    label {
+        background-color: white;
+width: 50%;
+    }
+</style>
 <body>
     
+    <div class="container">
     <form>
         <label for="petName">Nome dell'animale:</label>
         <input type="text" id="petName" name="petName">
@@ -25,6 +66,7 @@
       </form>
       
       <ul id="petList"></ul>
+    </div>
 
                   
 
