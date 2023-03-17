@@ -1,0 +1,25 @@
+body {
+    background-color: #652ce0;
+}
+
+.card {
+    z-index: 10;
+    justify-content: space-between;
+    max-width: 100vh;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+h1 {
+    background-color: blanchedalmond;
+    width: 150px;
+    margin-left: 300px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.mb-3 {
+    width: 200px;
+    margin-left: 33%;
+}
