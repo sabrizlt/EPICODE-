@@ -1,0 +1,138 @@
+@import 'colors';
+.album-body {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.800)60%, rgb(255, 215, 104) 100%);
+    color: white;
+
+    #albumImg img {
+        -webkit-box-shadow: 0px 0px 20px 0px #000000;
+        box-shadow: 0px 0px 20px 0px #000000;
+    }
+
+    .play i {
+        padding: 0.5em;
+        background-color: var(--color-green-dark);
+        border-radius: 50%;
+    }
+
+@media screen and (max-width:768px) {
+    .sidebar_left {
+        display: none;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .sidebar_right {
+        display: none;
+    }
+}
+
+@media screen and (min-width:767px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .dekstop {
+        display: none;
+    }
+}
+
+
+.titleAlbumMain {
+    color: rgb(140, 140, 140);
+    border-bottom: 1px solid rgb(80, 80, 80);
+}
+
+.playFill {
+    color: #000000;
+    padding: 0.5em;
+    border-radius: 50%;
+    background-color: var(--color-green-dark);
+}
+
+.buttonDropdown:hover {
+    background-color: rgba(0, 0, 0, 0.900);
+}
+
+.buttonDropdown {
+    img {
+        width: 25px;
+    }
+
+    font-size: 0.8em;
+    background-color: rgba(0, 0, 0, 0.700);
+    padding: 0.2em;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.bodyContain {
+    #album {
+        font-size: 0.7em;
+    }
+
+    h4 {
+        font-size: 1.5em;
+    }
+
+    .information {
+        font-size: 0.7em;
+
+        p {
+            color: white;
+        }
+    }
+
+    p {
+        color: rgb(180, 180, 180);
+    }
+
+    padding: 0;
+}
+
+.mainDiv {
+    
+    font-size: 0.6em;
+    background-color: #00000055;
+}
+
+
+
+
+
+.bi-caret-left,
+.bi-caret-right {
+    padding: 0.2em;
+    border-radius: 50%;
+    background-color: #00000055;
+
+}
+
+.bi-caret-left:hover,
+.bi-caret-right:hover {
+    background-color: rgba(0, 0, 0, 0.900);
+}
+
+.playDekstop>div {
+    font-size: 1.5em;
+}
+}
+
+.albumFooter {
+    position: sticky;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.915);
+
+    .playBar {
+        background-color: rgba(77, 77, 77, 0.727);
+    }
+
+    div i+p {
+        font-size: 0.7em;
+    }
+}
+
+i:hover {
+    cursor: pointer;
+}
